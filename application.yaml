@@ -1,0 +1,43 @@
+# eureka 서버에게 질의하기 위해 필요하며, 모든 모듈에 공통으로 필요1
+# defaultZone: http://localhost:8761/eureka/  => eureka 서버의 위치정보 명시
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8741/eureka/
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5652
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+#  application: 각자가 가지고있으니...
+#    name: member-service
+  data:
+    redis:
+      host: localhost
+      port: 7757
+      password: GODLOVEME
+  # 구버전 경로 참조용으로 추가
+  redis:
+    host: localhost
+    port: 7757
+    password: GODLOVEME
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3754/msaminiprj
+    username: root
+    password: hst0612
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+        # -strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        format_sql: true # SQL을 보기 좋게 정렬 (선택 사항)
+        highlight_sql: true # 터미널 로그에 ANSI 색상을 적용하여 가독성 향상 (선택 사항)
