@@ -1,6 +1,6 @@
 spring:
   kafka:
-    kafka-server: localhost:9072
+    kafka-server: localhost:9092
 resilience4j:
   circuitbreaker:
     instances:
