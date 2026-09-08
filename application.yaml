@@ -19,12 +19,12 @@ spring:
   data:
     redis:
       host: localhost
-      port: 7757
+      port: 7777
       password: GODLOVEME
   # 구버전 경로 참조용으로 추가
   redis:
     host: localhost
-    port: 7757
+    port: 7777
     password: GODLOVEME
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
