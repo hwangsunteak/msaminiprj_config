@@ -1,5 +1,5 @@
 jwt:
-  expiration: 1
+  expiration: 10
   #  인코딩된 문자 32자 이상 필요.(특수문자안됨)1
   secretKey: BrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyou
   expirationRt: 300
