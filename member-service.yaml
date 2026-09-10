@@ -4,10 +4,3 @@ jwt:
   secretKey: BrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyou
   expirationRt: 300
   secretKeyRt: SunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyou
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MariaDBDialect
