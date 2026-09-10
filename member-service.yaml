@@ -4,3 +4,6 @@ jwt:
   secretKey: BrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyou
   expirationRt: 300
   secretKeyRt: SunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyou
+logging:
+  charset:
+    console: UTF-8
