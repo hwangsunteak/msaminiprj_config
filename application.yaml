@@ -41,6 +41,3 @@ spring:
       hibernate:
         format_sql: true # SQL을 보기 좋게 정렬 (선택 사항)
         highlight_sql: true # 터미널 로그에 ANSI 색상을 적용하여 가독성 향상 (선택 사항)
-logging:
-  charset:
-    console: UTF-8
