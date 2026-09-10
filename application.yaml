@@ -26,18 +26,3 @@ spring:
     host: localhost
     port: 7777
     password: GODLOVEME
-  datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3754/msaminiprj
-    username: root
-    password: hst0612
-  jpa:
-    hibernate:
-      ddl-auto: create
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
-        # -strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    properties:
-      hibernate:
-        format_sql: true # SQL을 보기 좋게 정렬 (선택 사항)
-        highlight_sql: true # 터미널 로그에 ANSI 색상을 적용하여 가독성 향상 (선택 사항)
