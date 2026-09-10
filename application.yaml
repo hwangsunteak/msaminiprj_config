@@ -26,3 +26,9 @@ spring:
     host: localhost
     port: 7777
     password: GODLOVEME
+
+# 파일 업로드
+file:
+  upload-dir:
+    jpa: f:/dev/msaminiprj_jpa_upload/ # Linux 서버인 경우 /app/upload/ 형태
+    mybatis: f:/dev/msaminiprj_mybatis_upload/
